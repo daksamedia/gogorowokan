@@ -39,7 +39,7 @@
     <plugin name="cordova-plugin-app-event"           source="npm" />
      <plugin name="cordova-plugin-device" spec="~1.1.6" />
     <plugin name="cordova-plugin-x-toast" spec="~2.6.0" />
-    <plugin name="cordova-plugin-local-notifications-mm" source="npm"/>
+    <plugin name="cordova-plugin-local-notifications-nn" source="npm"/>
     <plugin name="cordova-plugin-whitelist"           source="npm" spec="~1.3.3" />
 	<plugin name="phonegap-plugin-push" source="npm">
 		<param name="SENDER_ID" value="654919099088" />
