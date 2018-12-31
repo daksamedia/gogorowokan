@@ -37,6 +37,7 @@
     <plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.5" />
     <plugin name="cordova-plugin-enable-multidex"           source="npm" />
     <plugin name="cordova-plugin-app-event"           source="npm" />
+    <plugin name="phonegap-plugin-barcodescanner"           source="npm" />
      <plugin name="cordova-plugin-device" spec="~1.1.6" />
     <plugin name="cordova-plugin-x-toast" spec="~2.6.0" />
     <plugin name="cordova-plugin-local-notifications-nn" source="npm"/>
