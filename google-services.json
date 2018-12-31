@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "654919099088",
+    "firebase_url": "https://gelaro-6b52c.firebaseio.com",
+    "project_id": "gelaro-6b52c",
+    "storage_bucket": "gelaro-6b52c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654919099088:android:e3387c55577a41fa",
+        "android_client_info": {
+          "package_name": "com.gelaro.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654919099088-tq4gs77t9a0apt7ls549kmcs41utps1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_SnRWlM66lq9Dx_FKliIcWZiF4HUwLPI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
