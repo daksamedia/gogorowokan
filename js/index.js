@@ -34,6 +34,22 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+		
+		var push = PushNotification.init({ "android": {"senderID": "654919099088"} );
+			push.on('registration', function(data) {
+			// data.registrationId
+		});
+		push.on('notification', function(data) {
+			// data.message,
+			// data.title,
+			// data.count,
+			// data.sound,
+			// data.image,
+			// data.additionalData
+		});
+		push.on('error', function(e) {
+			// e.message
+		});
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -47,5 +63,3 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
-
-app.initialize();
